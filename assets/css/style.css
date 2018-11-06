@@ -1,0 +1,74 @@
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+h2 {
+    margin: 0 auto;
+    display: block;
+    font-family: 'Georgia', Times, serif;
+    color: teal;
+    background-size: 100%;
+    border: 1inch;
+    border-style: dashed;
+    background-color: skyblue;
+    border-color: greenyellow;
+    width: 100%;
+
+}
+
+.bg-light {
+    background-color: green !important;
+}
+
+nav {
+    font-family: 'Georgia', Times, serif;
+    color: teal;
+    background-size: 100%;
+    border: 1inch;
+    border-style: dashed;
+    border-color: greenyellow; 
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: violet;
+    background-color: lightpink;
+    border-color: purple;
+}
+
+body {
+    background-size: 100%;
+    background-image: url("leaves.png");
+    /* width: 960px; */
+}
+
+img {
+    block-size: 350px;
+    border: 2inch;
+    border-style: groove;
+    border-color: darkseagreen;
+    margin: 0 auto;
+    display: block;
+}
+
+div {
+    width: 960px;
+}
+
+footer {
+    position: absolute;
+    color: palevioletred;
+
+
+
+}
+
+@media screen and 
+    (max-width: 980px) {
+
+    }
+   
+    /* i'm really confused about how to set max-width s in the same css.. and also how to keep the whole webpage showing whenever you change the screen size.. I remember it's called breakpoint but I don't know how to do it! Totally lost here. */
